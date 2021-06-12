@@ -33,6 +33,10 @@ function playRound(e){
 
 //function to get winner
 function getWinner(player, computer){
+	if (gameOver()){
+		finalAlert();
+		return;
+	}
 	//tie case
 	if(player === computer){
 		return "tie";
@@ -79,5 +83,14 @@ function updateSelections(player, computer){
 	document.getElementById("computerSelection").innerHTML = computer.toUpperCase();
 }
 
-
-
+//function for game over
+function gameOver(){
+	if ((playerScore === 5) || (computerScore === 5)){
+		return true;
+	}
+	return false;
+}
+//function to print messafe after game
+function finalAlert(){
+	alert("Refresh to play again!");
+}
