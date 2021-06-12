@@ -1,0 +1,86 @@
+h1 {
+	margin-top: 0;
+	height: 150px;
+	width: 100%;
+	text-align: center;
+	color: #9f6b99ff;
+	background: rgb(41, 36, 36);
+	font-size: 100px;
+	padding-top: 17px;
+	font-family: 'Trebuchet MS';
+}
+#header{
+	height: 155px;
+	background:#4f3466ff;
+	padding-bottom: 17px;
+}
+#wrapper{
+	background: rgb(26, 24, 24);
+	min-height: 100%;
+	position: fixed;
+	min-width: 100%;
+}
+#message{
+	text-align: center;
+	font-size: 100px;
+	align-items: center;
+	color: #9f6b99ff;
+	margin: 50px 0px 0px 0px;
+
+}
+.selection{
+	text-align: center;
+	font-size: 50px;
+	align-items: center;
+	color: #9f6b99ff;
+	margin: 0px 200px 0px 200px;
+}
+.selections{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.score{
+	text-align: center;
+	font-size: 100px;
+	align-items: center;
+	margin-left: 200px;
+	color: #9f6b99ff;	
+	margin-bottom: 0px;
+}
+
+html, body{
+	margin: 0;
+	height: 100%;
+	background: rgb(26, 24, 24);
+}
+.playerButton{
+	font-size: 50px;
+	font-family: Georgia;
+	width: 250px;
+	height: 150px;
+	margin: 20px;
+	background-color: rgb(125, 70, 173);
+	border-radius: 15px;
+	border-width: 0px;
+}
+.scoreArea{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.messageArea{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+}
+.playerButtons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
