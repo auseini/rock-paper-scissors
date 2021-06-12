@@ -43,9 +43,10 @@ h1 {
 }
 .score{
 	text-align: center;
-	font-size: 100px;
+	font-size: 50px;
 	align-items: center;
-	margin-left: 200px;
+	margin-right: 165px;
+	margin-left: 235px;
 	color: #9f6b99ff;	
 	margin-bottom: 0px;
 }

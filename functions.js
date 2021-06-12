@@ -16,6 +16,10 @@ function computerPlay(){
 }
 
 function playRound(e){
+	if (gameOver()){
+		finalAlert();
+		return;
+	}
 	//get selections
 	const playerSelection = e.target.id;
 	const computerSelection = computerPlay();
@@ -33,10 +37,7 @@ function playRound(e){
 
 //function to get winner
 function getWinner(player, computer){
-	if (gameOver()){
-		finalAlert();
-		return;
-	}
+	
 	//tie case
 	if(player === computer){
 		return "tie";
